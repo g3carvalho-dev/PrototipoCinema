@@ -1,4 +1,4 @@
-package ufrrj.aps.prototipocinema.controller;
+package ufrrj.aps.onstage.controller;
 
 import java.io.*;
 
