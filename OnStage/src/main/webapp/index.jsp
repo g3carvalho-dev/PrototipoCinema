@@ -11,62 +11,27 @@
 <!-- Cabeçalho -->
 <header class="header">
     <div class="menu-button">&#9776;</div>
-    <div class="logo">Logo</div>
+    <img src="img/OS_Logotipo_Black.png" alt="Logo" class="logo">
     <div class="search-bar">
         <input type="text" placeholder="Buscar eventos...">
     </div>
     <button class="auth-btn">Cadastrar/Login</button>
 </header>
 
-<!-- Carrosséis -->
-<section class="carousel-section">
-    <div class="carousel">
-        <h2>Filmes em Alta</h2>
-        <!-- Carrossel de Filmes -->
+<main>
+    <!-- Divisória principal com as seções em alta -->
+    <div class="first-division">
+        <section class="highlight" id="filmes-em-alta">Filmes em Alta</section>
+        <section class="highlight" id="pecas-em-alta">Peças em Alta</section>
+        <section class="highlight" id="eventos-proximos">Eventos Próximos de Acabar</section>
+        <section class="highlight" id="lancamentos">Lançamentos</section>
     </div>
-    <div class="carousel">
-        <h2>Peças em Alta</h2>
-        <!-- Carrossel de Peças -->
-    </div>
-</section>
 
-<!-- Eventos Próximos a Acabar -->
-<section class="upcoming-events">
-    <h2>Eventos Próximos a Acabar</h2>
-    <!-- Lista de Eventos -->
-</section>
-
-<!-- Lançamentos Recentes -->
-<section class="recent-releases">
-    <h2>Lançamentos Recentes</h2>
-    <!-- Lista de Lançamentos -->
-</section>
-
-<!-- Eventos que Entrarão em Cartaz -->
-<section class="coming-soon">
-    <h2>Eventos que Entrarão em Cartaz</h2>
-    <!-- Lista de Eventos -->
-</section>
-
-<!-- Grupos de Cards por Categoria -->
-<section class="category-cards">
-    <h2>Categoria: Cinema</h2>
-    <div class="cards">
-        <!-- Cards de Cinema -->
-    </div>
-    <h2>Categoria: Teatro</h2>
-    <div class="cards">
-        <!-- Cards de Teatro -->
-    </div>
-    <!-- Mais categorias -->
-</section>
-
-<!-- Sobre Nós -->
-<section class="about-us">
-    <h2>Sobre Nós</h2>
-    <p>Informações sobre a plataforma...</p>
-</section>
-
+    <!-- Outras seções da página -->
+    <section class="section" id="entrando-em-cartaz">Entrando em Cartaz</section>
+    <section class="section" id="categorias">Categorias</section>
+    <section class="section" id="sobre-nos">Sobre Nós</section>
+</main>
 <!-- Rodapé -->
 <footer class="footer">
     <p>&copy; 2024 Ingressos Online. Todos os direitos reservados.</p>
