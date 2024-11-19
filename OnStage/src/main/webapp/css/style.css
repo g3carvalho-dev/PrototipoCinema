@@ -13,6 +13,51 @@ body {
     line-height: 1.6;
 }
 
+.container-slider{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.container-imagens{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+}
+
+.slider {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.on{
+    opacity: 1;
+}
+
+#prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+}
+
+#prev-button{
+    transform: rotate(180deg);
+}
 .section {
     height: 100vh; /* Cada seção ocupa 100% da altura da tela */
     display: flex;
@@ -97,7 +142,7 @@ body {
 .logo {
     height: 60px; /* Define a altura da logotipo */
     max-width: 100%; /* Mantém a proporção */
-    margin: 0 0px; /* Espaçamento ao redor da imagem */
+    margin: 0 0; /* Espaçamento ao redor da imagem */
     vertical-align: middle; /* Alinha ao centro verticalmente com outros elementos */
 }
 

@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OnStage - O espetáculo ao seu alcance</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js(opcional)/script.js" defer></script>
+    <title>OnStage - O espetáculo ao seu alcance</title>
 </head>
 <body>
 <!-- Cabeçalho -->
@@ -17,8 +18,15 @@
     </div>
     <button class="auth-btn">Cadastrar/Login</button>
 </header>
-
 <main>
+    <div class="container-slider">
+        <button id="prev-button"><img src="img/arrow-icon-28.png" alt="prev-button"></button>
+        <div class="container-imagens">
+            <img src="img/venom-3-poster-banner.jpg" alt="filme" class="slider on">
+            <img src="img/CIN_Filme_Ainda_14_Nov24_Home_banner_e3b2a786dd.jpg" alt="filme" class="slider">
+        </div>
+        <button id="next-button"><img src="img/arrow-icon-28.png" alt="next-button"></button>
+    </div>
     <!-- Divisória principal com as seções em alta -->
     <div class="first-division">
         <section class="highlight" id="filmes-em-alta">Filmes em Alta</section>
